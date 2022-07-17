@@ -7,28 +7,83 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.wheel{
+    position: absolute;
+    right: 0;
+    width: 25%;
 }
 
 .login{
     box-shadow: 3px 4px 4px rgba(54, 54, 54, 0.432);
     border-radius: 30px;
     height: 75vh;
-    width: 75vw;
+    width: 65vw;
     background-color:white;
     position: relative;
 } 
 
+.right {
+   
+    position: absolute;
+    right: 18%;
+    height: 75vh;
+    width: 35vw;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 5% 5%;
+}
+
 .bicycle{
     position: absolute;
-    width: 45vw;
-    top: 25%;
+    width: 44vw;
+    top: 30%;
+    left: -4%;
 }
 
 .left{
-    position: absolute;
-    left: 0;
+    position: relative;
     height: 75vh;
-    width: 40vw;
-    background-image: linear-gradient(to right , #cab6af , #e9e1da);
+    width: 60vw;
 }
 
+.left img{
+    position: absolute;
+    left:  -2px;
+    height: 75vh;
+    width: 60vw;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: .5rem;
+    text-align: right;
+    border: 1px solid gray;
+    outline: none;
+    width: 45%;
+    font-family: 'B nazanin';
+}
+
+.email{
+    width: 91%;
+}
+
+.button{
+    width: 91%;
+    background-color: #49b66b;
+    border: 1px solid #49b66b;
+    padding: 10px;
+    font-family: 'B nazanin';
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'B nazanin';
+    margin-right: 8%;
+    padding-bottom: 10%;
+}
